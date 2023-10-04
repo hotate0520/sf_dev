@@ -16,6 +16,8 @@ public with sharing class AccountController {
       return accountList;
     }
   
+
+
     @AuraEnabled
     public static void updateAccount(List<Account> data) {
       System.debug('update start');
